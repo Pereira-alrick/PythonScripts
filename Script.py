@@ -1,3 +1,4 @@
+# A python script to classify png and xml respective to their filenames.
 import os
 
 count = 0
