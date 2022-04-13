@@ -1,4 +1,4 @@
-#A python script to replace label name with "License" in the name tag.
+# A python script to replace label name with "License" in the name tag.
 import glob, os # The glob module is used to retrieve files/path names matching a specified pattern. 
 path = r'C:\Users\alric\Downloads\New folder (2)\archive (3)\State-wise_OLX\\'
 
@@ -21,7 +21,7 @@ def replace_word(filename):
     try:
         with open(filename, 'w') as file:
             file.writelines(lines) # Rewrites the file.
-        print(filename + ' Sucuss in replacing.')
+        print(filename + ' Succuss in replacing.')
     except:
         print(filename + ' Failed')
     finally:
