@@ -1,4 +1,4 @@
-#A python script to transfer files from the directories to the path.
+# A python script to transfer files from the directories to the path.
 print("A python script to transfer files from the directories to the path.")
 import os
 # Path that includes directories containing files.
