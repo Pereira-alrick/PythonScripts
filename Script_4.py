@@ -23,9 +23,9 @@ def dir_existensce(paths):
             if not os.path.exists(path):
                 os.mkdir(path)
                 flag=1
-            if flag==1:
-                print("Please upload images: ")
-                exit()
+    if flag==1:
+        print("Please upload images: ")
+        exit()
     image_existensce(paths)
 
 def image_existensce(paths): # Checking if the folders are having images or not.
